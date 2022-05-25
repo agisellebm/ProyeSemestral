@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
+    <ui:VisualElement name="container" class="container" style="bottom: 20px;">
+        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px;">
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/UI/maggie1.png?fileID=2800000&amp;guid=2b39f9135746f6a489a4946276ffdf55&amp;type=3#maggie1&apos;);" />
+                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" class="health" />
+                <uie:ProgressBar name="mana" />
+            </ui:VisualElement>
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/UI/bart1.png?fileID=2800000&amp;guid=9212bd763e6463a4f84b4851c7728d2e&amp;type=3#bart1&apos;);" />
+                <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" class="health" />
+                <uie:ProgressBar name="mana" />
+            </ui:VisualElement>
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/UI/lisa1.png?fileID=2800000&amp;guid=d6de55da059d7ea459106ffb54e246e9&amp;type=3#lisa1&apos;);" />
+                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" class="health" />
+                <uie:ProgressBar name="mana" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
